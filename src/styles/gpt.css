@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* General styles for chat */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.chat-box {
+    flex: 1;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 600px; /* Set a maximum height for the chat box */
+    padding: 10px;
+    border: 1px solid #d1d6db;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+  
+.chat-message {
+    margin: 10px 20px;
+}
+  
+.user-message, .gpt-response {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-inline: 20px;
+    border-radius: 20px;
+    width: fit-content;
+    max-width: 80%;
+}
+  
+.user-message {
+    align-self: flex-end;
+    background-color: #cae6ff;
+    color: #333;
+}
+  
+.gpt-response {
+    align-self: flex-start;
+    background-color: #ebebeb;
+    color: #333;
+}
+  
+.query-input {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-inline: 10px;
+}
+
+.query-input:focus{
+    outline: none;
+    border: none;
+}
+  
+.gpt-button {
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    color: #E87070;
+    width: fit-content;
+}
+
+.response-button {
+    margin: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-style: italic;
+    color: #3b3b3b;
+    width: fit-content;
+}
+  
+button:hover {
+    opacity: 0.9;
+}
+  
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border: 1px solid #d1d6db;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    padding-inline: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.file-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+  
+.file-upload-button {
+    width: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    color: #E87070;
+    width: fit-content;
+}
+  
+.file-upload-button:hover {
+    opacity: 0.9;
+}
+  
+.file-upload-message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+  
+/* JSON output styling */
+.json-output {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin-top: 10px;
+    max-width: 100%;
+}

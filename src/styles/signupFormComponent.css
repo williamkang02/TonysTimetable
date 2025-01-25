@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.signup-form-container {
+    display: flex;    
+    flex-direction: column;        
+    justify-content: center;  
+    align-items: center;      
+    background-color: #e59191;
+    min-height: 100vh;        
+    width: 100vw;             
+    position: absolute;       
+    top: 0;                   
+    left: 0;
+}
+
+.signup-logo-border {
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    background-color: #eea6a6;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);    
+}
+
+/* Form container styling */
+.signup-form {
+    background-color: #fff7f7;
+    padding: 30px;
+    padding-inline: 40px;
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: fit-content;
+    width: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.signup-form h1 {
+    font-size: 2.1em;
+    color: #e87070;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+
+.signup-form label {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.signup-form input[type="text"], 
+.signup-form input[type="password"],
+.signup-form input[type="email"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff7f7; 
+    font-size: 1em;
+}
+
+.signup-form ::placeholder {
+    color: #a2a2a2;       
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.1em;  
+}
+
+.signup-button {
+    padding: 12px;
+    background-color: #e87070; 
+    color: #fff3f3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.signup-button:hover {
+    background-color: #8e6868; 
+}
+
+
+.signup-agreement {
+    font-size: 0.7em;
+    color: #555;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.signup-form a {
+    color: #e87070; 
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-form a:hover {
+    text-decoration: underline;
+}
+
+.signup-hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.signup-hero-image img {
+    width: 250px;
+    height: auto;
+}

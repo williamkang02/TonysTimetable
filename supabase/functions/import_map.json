@@ -1,0 +1,7 @@
+{
+    "imports": {
+        "serve": "https://deno.land/std@0.136.0/http/server.ts",
+        "@upstash/redis": "https://esm.sh/@upstash/redis",
+        "@upstash/ratelimit": "https://cdn.skypack.dev/@upstash/ratelimit@latest"
+    }
+}
